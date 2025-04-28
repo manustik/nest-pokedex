@@ -91,4 +91,8 @@ export class PokemonService {
     console.log(error);
     throw new InternalServerErrorException(`Can't create Pokemon - Check server logs`);
   }
+
+  // fillPokemonsWithSeed( name: string, no: number ) {
+  //   { name, no } = 
+  // }
 }
